@@ -1,0 +1,8 @@
+Install Prerequisites
+Invoke-WebRequest -Uri https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblNCYl9UX2NvVDRQcXRoYlAyVjNQbkhnb2F0d3xBQ3Jtc0tuSDAwZUZlY19DYVc0VzlMMVB2TU56bVJGVVlxZmRaRlpUWV9iZ0hZVVdnb3Z4ME5qNmoyTzdodHMtTHlXa2xrdkozMmNjTm5ISnlMenNkcEVYLVAzMDNBZmlCZGpicjlBLWkzYVdmaGlaMjJNeG9MQQ&q=https%3A%2F%2Faka.ms%2FMicrosoft.VCLibs.x64.14.00.Desktop.appx&v=cHDPDjFHBUk -outfile Microsoft.VCLibs.x86.14.00.Desktop.appx
+Add-AppxPackage Microsoft.VCLibs.x86.14.00.Desktop.appx
+
+Download Terminal (Change version)
+Invoke-WebRequest -Uri https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa29jLTFkblZsLURPTmd1WktmTTBaZFBGSjhwd3xBQ3Jtc0tuLUNKSmZTQTJDQW1JVGhGMnBHbjFTODB0SmNMdFhMaURfNzlTQlZKcnR0amdhMy0zREt6TW1xY0JEUkxGMjFSbkRtOXFzX2R3MXZIQWRJbEJta2JzUFpVM0ZZRkhBclJfYV9ESjRKNXNIV1JfZ3Iwbw&q=https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fterminal%2Freleases%2Fdownload%2Fv1.7.1091.0%2FMicrosoft.WindowsTerminal_1.7.1091.0_8wekyb3d8bbwe.msixbundle&v=cHDPDjFHBUk -outfile Microsoft.WindowsTerminal_1.7.1091.0_8wekyb3d8bbwe.msixbundl
+
+Add-AppxPackage -Path .\Microsoft.WindowsTerminal_1.7.1091.0_8wekyb3d8bbwe.msixbundle
